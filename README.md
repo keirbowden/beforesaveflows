@@ -1,6 +1,7 @@
 # Flow vs Trigger Benchmark repo
 
 Note all execute anonymous is taking place in the developer console.
+Workflow logging was set to FINER in both orgs.
 
 ## Setup
 1. Push to scratch org
@@ -73,7 +74,5 @@ Note all execute anonymous is taking place in the developer console.
 
 1. Deactivate flow Add to Trigger
 
-
-Workflow logging was set to FINER in both orgs.
 Turning workflow logging down to INFO reduced the CPU usage for this case to 1550 in scratch org and 1844 in pre-release org.
 
